@@ -54,7 +54,7 @@ def main():
    if hasattr(ssl, '_create_unverified_context'):
       context = ssl._create_unverified_context()
 
-   conn = SmartConnect(host="lxl1vmwvc001", user="administrator@vsphere.lab", pwd="vmw@r3Esx1", port=443, sslContext=context)
+   conn = SmartConnect(host="***", user="***********", pwd="*********", port=443, sslContext=context)
 
    atexit.register(Disconnect, conn)
 
