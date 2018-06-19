@@ -45,7 +45,7 @@ def main():
     try:
        si = None
        try:
-          si = connect.Connect(host="lxl1vmwvc001", user="administrator@vsphere.lab", pwd="vmw@r3Esx1", port=443, sslContext=context)
+          si = connect.Connect(host="****", user="*****", pwd="****", port=443, sslContext=context)
        except IOError as e:
           pass
           atexit,register(Disconnect, si)
