@@ -1,3 +1,3 @@
 ### python teste
 
-vamos colocar alguma coisa aqui para testar o git...
+Vamos contruir projetos de Python e CI/CD ( ou tentar ).
